@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:wght@700&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Gani</title>
+</head>
+<body>
+    <div class="container">
+        <!-- profile picture-->
+        <div class="profile">
+            <img src="logo arabic 3.png" alt="error image" />
+            <h1>Chairul <font color ="#D68F2F">Gani</font> </h1>
+            <p>اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَا تُهُ</p>
+            <h2>Apa yang dicari orang sigma?</h2>
+        </div>
+
+        <!-- button -->
+     <div class="secton bg1">  
+        <div class="link-section">
+            <div class="link-container">
+                <div class="link">
+                    <a href="https://instagram.com/chairul.gani" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://threads.net/chairul.gani" target="_blank">
+                        <i class="fab fa-twitter"></i> Threads
+                    </a>
+                    <a href="https://youtube.com/nothingnes" target="_blank">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
+                    <a href="https://discord.gg/8hTr3tdwvh" target="_blank">
+                        <i class="fab fa-discord"></i> Discord
+                    </a>
+                </div>
+            </div>
+        </div>
+     </div>     
+       
+        <!-- Portopolio -->
+        <div class="Portopolio">
+    <h3 class="portopolio-header">Portopolio</h3>
+    <div class="slider">
+        <div class="slider-wrapper">
+            <div class="slide">
+                <img src="Project Brosur GANi NEW-1.jpg" alt="Your Photo 1" class="portopolio-image"/>
+            </div>
+            <div class="slide">
+                <img src="Project Brosur GANi NEW-2.jpg" alt="Your Photo 2" class="portopolio-image"/>
+            </div>
+            <div class="slide">
+                <img src="cover revisi.jpg" alt="Your Photo 2" class="portopolio-image"/>
+            </div>
+            <div class="slide">
+                <img src="poster revisi.png"Your Photo 2" class="portopolio-image"/>
+            </div>
+            <div class="slide">
+                <img src="CD revisi.png" alt="Your Photo 2" class="portopolio-image"/>
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        
+        <div class="caption">Desain</div>
+    </div>
+    <!-- Footer -->
+<div class="footer">
+    <div class="footer-line"></div>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="logo gani.png" alt="Logo" class="footer-logo-image">
+        </div>
+        <div class="footer-copyright">
+            <p>© Chairul Gani 2024</p>
+        </div>
+    </div>
+</div>
+    <!-- Modal for full-size image -->
+     <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modal-image">
+     </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
